@@ -1,38 +1,102 @@
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* //@default-color : linear-gradient(263.94deg, #FC4D35 3.59%, #E02871 102.5%); */
+.container {
+  margin: 0% auto;
+  margin-top: 2%;
+  display: flex; 
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.myPhoto{
+  box-shadow: 1px solid grey;
+}
+.circle{
+  height: 110%;
+  width: 80%;
+  border-radius: 50%;
+  opacity: 0.3;
+  margin-left: 15%;
+  margin-top: -5%;
+  position: absolute;
+  z-index: -1111;
+  filter: blur(80px);
+  background: linear-gradient(263.94deg, #FC4D35 3.59%, #E02871 102.5%);
+}
+.photoContainer {
+  margin-top: 5%;
+  justify-content: center;
+  display: flex;
+}
+.photoWhiteBorder {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  border: 0.7rem solid white;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.home {
+  width: 60%;
+  height: 100vh;
+  
+  /* background-color: pink; */
+}
+.myPhoto{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.asideLeft {
+  width: 20%;
+  height: 100vh; 
+  /* background-color: aqua; */
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.logo {
+  font-family: 'Aladin', cursive;
+}
+.logo:hover {
+  color: #FC4D35  ;
+}
+.aboutMeIntro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 2%;
+}
+.myName {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 63px;
+  height: 59.88px;
+}
+.myWork {
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 80px;
+text-align: center;
+}
+
+.seeMyWork {
+  background: linear-gradient(263.94deg, #FC4D35 3.59%, #E02871 102.5%);
   color: white;
+  border: none;
+  margin-top: 2%;
+  height: 60px;
+  width: 270px;
+  font-family: Inter;
+  font-weight: 700;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.seeMyWork:hover {
+  box-shadow: #E02871;
 }
