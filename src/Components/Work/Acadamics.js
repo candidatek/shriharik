@@ -4,7 +4,8 @@ function Acadamics() {
     return (
         <div>
            <div className="boldFont">
-                Acadamics
+                Acadamics 
+                Developing....
             </div>
         </div>
     )
