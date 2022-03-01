@@ -4,7 +4,7 @@ import Acadamics from "./Acadamics"
 
 function WorkAndAcadamics() {
     return (
-        <div style={{marginTop: "100%"}}>
+        <div>
             <Work/>
             <Acadamics/>
         </div>

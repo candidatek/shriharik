@@ -1,7 +1,7 @@
 .home {
     width: 60%;
     height: 100vh;
-    
+    margin-left: 20px ;
     /* background-color: pink; */
   }
   .photoContainer {
@@ -27,7 +27,11 @@
     border-radius: 50%;
 }
 .logo {
-    font-family: 'Aladin', cursive;
+  font-family: Aladin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21.6936px;
+  line-height: 18px;
   }
   .logo:hover {
     color: #FC4D35  ;
@@ -48,11 +52,11 @@
   }
   .myWork {
     font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 80px;
-  text-align: center;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 85px;
+text-align: center;
   }
   
   .seeMyWork {
@@ -67,8 +71,8 @@
   }
   .seeMyWorkHoverBtn  {
     border: 2px solid #FC4D35 ;
-    margin-top: -7%;
-    margin-left: -2%;
+    margin-top: -50px;
+    margin-left: -7px;
     height: 60px;
     z-index: -1;
     width: 270px;

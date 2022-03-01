@@ -1,7 +1,12 @@
 $default-colour :  linear-gradient(263.94deg, #FC4D35 3.59%, #E02871 102.5%);
-
+$background: #E5E5E5;
 @import "./home.scss";
+@import "./work.scss";
 
+
+* body {
+  background: #E5E5E5;
+}
 .App {
 
 }
@@ -16,20 +21,19 @@ $default-colour :  linear-gradient(263.94deg, #FC4D35 3.59%, #E02871 102.5%);
   height: 110%;
   width: 80%;
   border-radius: 50%;
-  opacity: 0.3;
-  margin-left: 15%;
+  margin-left: 13%;
   margin-top: -5%;
   position: absolute;
   z-index: -1111;
-  filter: blur(80px);
-  background: $default-colour;
+  filter: blur(336.344px);
+  background: linear-gradient(263.94deg, rgba(252, 77, 53, 0.4) 3.59%, rgba(224, 40, 113, 0.4) 102.5%);
 }
 
 
 
 .asideLeft {
   width: 20%;
-  height: 100vh; 
+  height: 400vh; 
   /* background-color: aqua; */
 }
 .header {

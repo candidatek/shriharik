@@ -1,6 +1,4 @@
 import React from 'react'
-import TwitterImg from '../images/twitter.png'
-import LinkedinImg from "../images/linkedin.png"
 import SocialMediaData from "../Constants/SocialMediaConstants";
 
 function SocialMedia() {

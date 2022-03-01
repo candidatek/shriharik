@@ -6,10 +6,7 @@ function Header() {
             <div className="logo">
                 Shrihari <br/> Kulkarni
             </div>
-             
                 <SocialMedia/>
-             
-
         </div>
     )
 }

@@ -1,10 +1,45 @@
 import React from 'react'
 
+import WorkExp from "../../Constants/WorkExpConstants";
+console.log(WorkExp);
+
 function Work() {
     return (
-        <div>
-            <h1>Work Experience</h1>
+        <div className="work">
+            <div className="boldFont">
+                Work Experience
+            </div>
+            <div className="flexFlow">
+
+                { WorkExp.map((work) =>{
+                   return ( <div key={work.time} className="workCards">
+                    <div className="workHeading">
+                        <div className="workCompany">
+                            {work.comapny} 
+                        </div>
+                        <div className="flexFlowForContent">
+                        <span className="workPosition">
+                            {work.position}
+                        </span>
+                        <span className="workTime">
+                            {work.time}
+                        </span>
+                        </div>
+                        
+                    </div>
+                    <div className="workContent">
+                        <div className="workContentData" dangerouslySetInnerHTML={{__html: work.content}}>                        
+                        </div>
+                
+                    </div>
+                </div>)
+                })}
+                
+           
             
+            </div>
+            
+
         </div>
     )
 }

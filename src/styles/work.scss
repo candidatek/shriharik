@@ -1,0 +1,70 @@
+$default-color :  linear-gradient(263.94deg, #FC4D35 3.59%, #E02871 102.5%);
+.work {
+    margin-top: 500px;
+}
+.boldFont{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 72px;
+margin-top: 200px;
+}
+.workCards {
+   margin-right: 80px ;
+   margin-top: 65px;
+
+}
+.workHeading {
+    height: 120px;
+    width: 450px;
+    background: $default-color;
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+.workContent {
+    background: white;
+    height: 180px;
+    width: 450px;
+}
+.flexFlow {
+    display: flex;
+}
+.workCompany {
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 42px;
+padding-left: 40px;
+padding-top: 18px;
+}
+
+.workPosition {
+font-size: 16px;
+line-height: 23px;
+}
+.flexFlowForContent {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-right: 40px;
+}
+.workTime {
+font-size: 14px;
+line-height: 23px;
+}
+.workContent {
+    font-size: 14px;
+    line-height: 23px;
+    color: #333333;
+}
+.workContentData {
+    white-space: pre-line;
+
+    padding: 28px 32px 64px 40px;
+}
