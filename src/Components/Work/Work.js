@@ -1,7 +1,6 @@
 import React from 'react'
 
 import WorkExp from "../../Constants/WorkExpConstants";
-console.log(WorkExp);
 
 function Work() {
     return (

@@ -7,7 +7,6 @@ $default-color :  linear-gradient(263.94deg, #FC4D35 3.59%, #E02871 102.5%);
 font-style: normal;
 font-weight: bold;
 font-size: 55px;
-line-height: 72px;
 margin-top: 200px;
 }
 .workCards {
@@ -32,6 +31,13 @@ margin-top: 200px;
 }
 .flexFlow {
     display: flex;
+    &.center{
+        justify-content: space-between;
+    }
+    &.top {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
 }
 .workCompany {
     font-family: Inter;
@@ -56,7 +62,6 @@ line-height: 23px;
 }
 .workTime {
 font-size: 14px;
-line-height: 23px;
 }
 .workContent {
     font-size: 14px;
@@ -67,4 +72,47 @@ line-height: 23px;
     white-space: pre-line;
 
     padding: 28px 32px 64px 40px;
+}
+
+.collegeBoard {
+    margin-top: 65px;
+    width: 520.62px;
+    height: 212.82px;
+    background: $default-color;
+   
+}
+.collegeTitle {
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 25.8681px;
+    padding-left: 40px;
+
+}
+.rvLogo {
+    width: 63.57px;
+    height: 63.57px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.courseInfo {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.specialization {
+    font-size: 18.6061px;
+}
+.degree{
+    font-size: 18px;
+}
+.collegeTime {
+    padding-right: 40px;
+    font-size: 14px;
+
 }
